@@ -7,7 +7,6 @@ public class SmallestDifference {
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length - 1; j++) {
-
                 if (Math.abs(array[i]-array[j])< min){
                     min = Math.abs(array[i]-array[j]);
                     arr[0]=array[i];
@@ -15,8 +14,6 @@ public class SmallestDifference {
                 }
             }
         }
-
-
         return arr;
     }
 }
